@@ -1,0 +1,10 @@
+POST http://localhost:8080/producto HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Curso Java Backend",
+    "categoria": "Backend",
+    "precio": 1.15,
+    "numeroRegistro": "202-555-0125",
+    "fechaCreacion": "2020-11-21"
+}

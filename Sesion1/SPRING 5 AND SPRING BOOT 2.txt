@@ -1,0 +1,29 @@
+More information:
+spring.io/guides/gs/
+
+INTRODUCTION TO SPRING 5 AND SPRING BOOT 2
+Commands for run a gradle project with CMD:
+- Access to project to directory
+- gradlew clean build
+- gradlew bootRun
+- When the project is compiled, open the link http://localhost:8080
+- CTRL + C to stop the project
+
+With the compilation of the project, the application will content in a jar file with a directory called build inside the directory libs.
+"backend.sesion1-0.0.1-SNAPSHOT.jar"
+
+Gradle Wrapper is a script that invokes a declared version of gradle, it compiles and running a gradle project with CMD, without other IDE or compilator code program
+
+Maven Wrapper is a script that invokes a declared version of maven, it compiles and running a maven project with CMD, without other IDE or compilator code program
+
+Commands for run a maven project with CMD:
+- Access to project to directory
+- mvnw clean package
+-  mvnw spring-boot:run
+- When the project is compiled, open the link http://localhost:8080
+- CTRL + C to stop the project
+
+mvn clean install, copies the installation files in your computer and compiles-
+
+Spring tools to verify plugins of spring 
+https://spring.io/tools

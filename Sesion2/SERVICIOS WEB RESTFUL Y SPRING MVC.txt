@@ -1,0 +1,27 @@
+RESTFUL WEB SERVICES WITH SPRING MVC
+
+It's esential use the structure: model, repository and controller to implement restfull services
+
+In the controller, use @RestController to indicates that it's a controller for rest services, and its component of the Main without nedded of instantiation
+
+@GetMapping to indicates the rute in url to use the services
+
+The plugings of Visual Studio help you in the code writing and integration of Spring and others frameworks
+In Visual, you can see the structure in Spring, beans and endpoint mapping
+
+In http, is necessary specified the type of information that your services recives with the format:
+application/json, xml, vid, arc, etc
+
+If you user CURL in CMD, you cnan spcified the type of method to verify:
+- curl -X POST -v http://localhost:8080/saludo
+- curl -X GET -v http://localhost:8080/saludo
+
+JAXB
+Is for the structure XML with Java
+
+To use a POST service from CMD:
+curl -X POST -v -H "Content-Type: application/json" -d '{"mensaje": "Hola Mundo", "nombre": "Beto","edad": 5}' http://localhost:8080/saludo
+
+More information:https://spring.io/guides/gs/rest-service/
+
+

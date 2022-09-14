@@ -1,0 +1,37 @@
+
+POST http://localhost:8080/cliente HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "BeduORG",
+    "correoContacto": "contacto@bedu.org",
+    "numeroEmpleados": "20",
+    "direccion": "direccion"
+}
+
+###
+POST http://localhost:8080/cliente HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Beto Bedu",
+    "correoContacto": "beto@bedu.org",
+    "numeroEmpleados": "30",
+    "direccion": "Av Siempre Viva 123"
+}
+
+###
+POST http://localhost:8080/producto HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Curso Java Backend",
+    "categoria": "Backend",
+    "precio": 1.15,
+    "numeroRegistro": "202-555-0125",
+    "fechaCreacion": "2020-11-21"
+}
+
+###
+GET http://localhost:8080/producto/1 HTTP/1.1
+Content-Type: application/json
